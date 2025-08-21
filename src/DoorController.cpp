@@ -46,7 +46,7 @@ void DoorController::begin()
     pinMode(DIP1, INPUT_TYPE);
     pinMode(DIP2, INPUT_TYPE);
     pinMode(DIP3, INPUT_TYPE);
-    pinMode(fireSignalPin, INPUT_TYPE);
+    
     pinMode(relayUpPin, OUTPUT);
     pinMode(relayDownPin, OUTPUT);
 
